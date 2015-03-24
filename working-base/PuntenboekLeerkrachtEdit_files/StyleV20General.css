@@ -1,0 +1,1082 @@
+/**
+ * RESET
+**/
+
+ * { margin: 0; padding: 0}
+
+/**
+ * OPMAAK
+**/ 
+
+#StyleV20Sol p 					{ margin-bottom: 2px}
+#StyleV20Sol a 					{ text-decoration: underline; color: #333}
+#StyleV20Sol a.no-decoration		{ text-decoration: none}
+#StyleV20Sol a:hover 			{ color: #333; text-decoration: none}
+#StyleV20Sol a img 				{ border: 0}
+#StyleV20Sol small a				{ color: #999}
+#StyleV20Sol small a:hover		{ color: #bbb}
+
+#StyleV20Sol h2, 
+#StyleV20Sol h3,
+#StyleV20Sol h5					{ font: 20px/24px "Century Gothic", "Myriad Pro", Helvetica, Arial, sans-serif; margin-bottom: 1em; letter-spacing: 2px}
+#StyleV20Sol h5					{ margin: 1em 0}
+#StyleV20Sol h3 				{ font-size: 16px; border-bottom: 2px solid #ffd203; padding-bottom: 0.4em}
+#StyleV20Sol h3 small			{ font-size: 12px; letter-spacing: 0}
+#StyleV20Sol h3 em			{ font-size: 12px;}
+#StyleV20Sol h3 a span 			{ font-size: 11px; letter-spacing: 0; line-height: 16px; display: none}
+#StyleV20Sol h3 a:hover 		{ text-decoration: none}
+#StyleV20Sol h3 a:hover span	{ display: inline}
+#StyleV20Sol h5					{ font-size: 15px; line-height: 20px; border-bottom: 1px solid #ddd; padding-bottom: 0.2em; clear: both }
+#StyleV20Sol h6					{ font-size: 12px; line-height: 20px; background: #e1e1e1; margin: 0.5em 0;padding: 0.5em}
+#StyleV20Sol h6	a				{ font-weight: normal; font-size: 12px}
+#StyleV20Sol h3 a				{ text-decoration: none}
+
+#StyleV20Sol #header h2 		{ position: absolute; top: 25px; right: 50px; left: 259px; text-align: right}
+#StyleV20Sol #content h2 		{ text-align: center; margin-bottom: 0.4em;}
+
+#StyleV20Sol h4					{ line-height: 32px}
+#StyleV20Sol h4.big				{ font-size: 16px; line-height: 120%; margin-bottom: 0.5em}
+#StyleV20Sol .bericht h4		{ line-height: 120%; margin:0}
+
+/* #StyleV20Sol table table tr td { border-bottom: 1px solid #ddd}*/
+
+#StyleV20Sol blockquote 		{ border: 1px solid #ddd; border-left: 3px solid #ffd204; margin: 0 0 1em 1em; padding: 0 1em}
+#StyleV20Sol a.GoToPost			{ text-decoration: none}
+
+#StyleV20Sol hr {
+	margin: 1em 0;
+	border: 0;
+	border-bottom: 1px solid #ddd;
+}
+
+#BreadCrumb {
+	margin-left: 14px; 
+	margin-top: 2px; 
+	margin-bottom: 3px;
+	font-family: "Century Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	/*color:#666666;*/
+}
+
+#BreadCrumb a {
+	/*color:#666666;*/
+}
+
+#BreadCrumb a hover{
+	/*color:#333333;*/
+}
+
+/**
+ * FORMULIEREN
+**/ 
+
+/*#StyleV20Sol form									{ overflow: hidden}*/
+#StyleV20Sol table 								{ border-collapse: collapse}
+#StyleV20Sol ul 									{ list-style: none; margin-left: 0}
+#StyleV20Sol form ul li								{ vertical-align: text-top; }
+#StyleV20Sol textarea 								{ width: 37em; font: 12px/130% Helvetica, Arial, sans-serif; color: #333; margin-right: 1em; vertical-align: top; padding: 0.2em}
+#StyleV20Sol textarea.tiny							{ width: 15em; color: #333; margin: 0em; vertical-align: top; padding: 0.1em; clear: both;}
+#StyleV20Sol form select							{ max-width: 200px; padding: 2px}
+#StyleV20Sol form select option						{ padding: 0.1em 0.2em}
+#StyleV20Sol select#CompetentieSelect,
+#StyleV20Sol form select#CompetentieSelect			{ max-width: 100%}
+#StyleV20Sol input[type="text"],
+#StyleV20Sol input[type="password"], 
+#StyleV20Sol input.color 							{ padding: 2px; border-radius: 2px; width: 250px; border-top: 1px solid #abadb3; border-right: 1px solid #dbdfe6; border-bottom: 1px solid #e3e9ef; border-left: 1px solid #e2e3ea}
+#StyleV20Sol input[type="text"].narrow,
+#StyleV20Sol input[type="password"].narrow, 
+#StyleV20Sol input.color.narrow					{ width: 5em}
+#StyleV20Sol input[type="text"].very_narrow,
+#StyleV20Sol input[type="password"].very_narrow, 
+#StyleV20Sol input.color.very_narrow					{ width: 3em}
+#StyleV20Sol input[type="text"]:active, 
+#StyleV20Sol input[type="text"]:hover, 
+#StyleV20Sol input.color:active,
+#StyleV20Sol input.color:hover					{ border-top: 1px solid #5794bf; border-right: 1px solid #b7d5ea; border-bottom: 1px solid #c7e2f1; border-left: 1px solid #c5daed}
+#StyleV20Sol .opsomming select					{ max-width: 100px}
+#StyleV20Sol table.lijst select						{ max-width: 150px}
+#StyleV20Sol .withIcon 							{ line-height: 32px; height: 32px; overflow: hidden}
+#StyleV20Sol input.big_button						{ padding: 0.5em 0; margin-top: 1em; width: 9em}
+
+#StyleV20Sol ul.formTabel li 					{ clear: both; overflow: auto; padding: 2px 0; position: relative; line-height: 24px}
+#StyleV20Sol ul.formTabel > li > label 			{ display:block; float: left; width: 20em; text-align: right; margin-right: 1em}
+#StyleV20Sol ul.formTabel > li > label.inline 			{ display: inline; float: none; width: auto; text-align: left; margin:0}
+#StyleV20Sol ul.formTabel.smal li label{ width: 7em}
+#StyleV20Sol ul.formTabel.brede_labels li label{ width: 30em}
+#StyleV20Sol ul.formTabel.extra_brede_labels li label{ width: 50em}
+#StyleV20Sol ul.ZebraList li.oneven,
+#StyleV20Sol ul.formTabel li.oneven			{ background: #f4f2e6}
+#StyleV20Sol ul.formTabel li.inset label 		{ width: 23.5%; float: left; text-align: left}
+#StyleV20Sol ul.formTabel li.inset label input	{ margin: 0.25em 0.3em 0.25em 0}
+
+#StyleV20Sol .BigTypo { font-size: 1.2em;}
+#StyleV20Sol ul.BigTypo > li { padding: 0.5em}
+#StyleV20Sol ul.BigTypo ul { margin: 0.5em}
+
+#StartUpload										{ display: none; float: left; width: 86px; height: 29px; border: 0; background: url(../FWImages/OrangeUploadButton.png) no-repeat; text-indent: -999em; outline: none; margin: 0; padding: 0; line-height: 100%}
+#ActiviteitStartUpload									{ display: none; float: left; width: 86px; height: 29px; border: 0; background: url(../FWImages/OrangeUploadButton.png) no-repeat; text-indent: -999em; outline: none; margin: 0; padding: 0; line-height: 100%}
+
+#LogInButton 										{ padding: 0.4em 0.8em}
+
+#StyleV20Sol input[type="text"].ShortInput			{ width: 25px;}
+
+
+/**
+ * CLASSES AND ID's
+**/
+
+#StyleV20Sol #Suggest ul ul { margin-left: 0.5em}
+#StyleV20Sol #Suggest ul ul li:before { content: "\2192 \0020"}
+
+.hidden   { display: none; visibility: hidden; }
+.visible { display: block; visibility: visible; }
+#StyleV20Sol .login_button 	{ display: block; width: 100px; height: 64px; background: url('../FWImages/login/loginbuttons.png'); text-indent: -999em}
+#StyleV20Sol .login_button.googleapps 	{ background-position: -100px 0}
+#StyleV20Sol .login_button.liveatedu 	{ background-position: -200px 0}
+#StyleV20Sol .login_button.mydigipass 	{ background-position: -300px 0}
+/* only use the hovers on the links */
+#StyleV20Sol a.login_button.beid:hover 	{ background-position: 0 -64px} 
+#StyleV20Sol a.login_button.googleapps:hover 	{ background-position: -100px -64px}
+#StyleV20Sol a.login_button.liveatedu:hover 	{ background-position: -200px -64px}
+#StyleV20Sol a.login_button.mydigipass:hover 	{ background-position: -300px -64px}
+#StartPageLoading { position: absolute; top: 0; left: 50%; margin-left: -50px; display: none; background: #FFE363; padding: 0.3em 0.6em; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; font-weight: bold}
+.padded { display: block; padding: 0.4em; font-size: 1.2em}
+
+.LoadingLinkedRecords { display: none}
+
+#SOLFAQPopup { position: absolute; padding: 1em; top: 42px; right: -10px; border: 2px solid #ddd; background: #fff; display: none;}
+.faqpopuppijl { position: absolute; top: -17px; right: 52px; }
+
+#DossierLijnOmschrijving_parent
+{
+	float:left;
+	margin-right: 10px;
+}
+
+#DossierLijnDetailOmschrijving_parent
+{
+	float:left;
+	margin-right: 10px;
+}
+
+.avatar {
+	box-shadow: #666 0px 2px 2px;
+	border: 1px solid #fff;
+	margin: 0.5em 0.5em 0.5em 0;
+	float: left;
+}
+
+#StyleV20Sol ul.filelist {
+	margin: 0;
+	padding: 0;
+}
+#StyleV20Sol ul.filelist li {
+	background: url('../FWImages/icons/page_white.png') no-repeat;
+	line-height: 20px;
+	padding: 0 0 0 2em
+}
+#StyleV20Sol ul.filelist a {
+	color: #444;
+}
+
+#StyleV20Sol .spaced {
+	border: 1px dashed #aaa;
+	border-width: 0 1px;
+	padding: 0.2em;
+}
+#StyleV20Sol .ImportInfo {margin-bottom: 1.5em}
+#StyleV20Sol #overDiv ul,
+#StyleV20Sol .ImportInfo ul {margin: 0.5em 0 0.5em 1.5em; list-style: circle}
+#StyleV20Sol #overDiv ul ul,
+#StyleV20Sol .ImportInfo ul ul {list-style: disc}
+
+.closePopUp { display: block; width: 12px; height: 12px; background: url('../FWImages/closePopUp.png'); position: absolute; right: 12px; top: 12px}
+
+#StyleV20Sol .small_inputs input[type='text'] { width: 40px}
+
+#loading_imgV20 { display:none}
+#PuntenboekLoader { position: absolute; top: 0; left: 0; display: none;}
+#lightbox-container-image-box {border: 2px solid #000; border-width: 2px 2px 0 2px}
+#lightbox-container-image-data-box {border: 2px solid #000; border-width: 0 2px 2px 2px}
+
+
+#StyleV20Sol table#KVolgsysteemKlasscreening td { padding: 0 0.5em}
+
+#StyleV20Sol span.KVSQuotatie { display:block; float: left; padding: 0 0.2em; min-width: 1.5em; line-height: 1.5em; border-radius: 2px; text-align: center}
+
+.GerichtAanFull { background: #f7f7f7; position: absolute; top: -1em; left: -1em; display: block; padding: 1em; border: 1px solid #ddd; border-radius: 5px; border-radius: 5px}
+.GerichtAanShort { position: relative}
+
+#StyleV20Sol div.infobox.extrainfo ul { list-style: circle; margin-left: 1em}
+#StyleV20Sol div.infobox.extrainfo ul li { margin-left: 1em}
+
+.ui-autocomplete { max-height: 100px; overflow-y: auto}
+
+#GansTerug { position: absolute; left: 0; top: 0}
+
+#StyleV20Sol ul.formTabel div.formTabelInnerWrapper label { float: none; display: inline}
+
+#StyleV20Sol table.table_fotos_lijst { border-collapse: collapse; border-color: #ddd; margin-bottom: 1em;}
+#StyleV20Sol table.table_fotos_lijst td { vertical-align: middle; text-align: center; padding: 0.5em 0}
+
+#StyleV20Sol p.hasMargin { margin-bottom: 1em}
+
+#StyleV20Sol #overDiv table td 	{ padding: 2px}
+#StyleV20Sol #overDiv table td  option { padding: 0 2px}
+
+#StyleV20Sol .ui-datepicker {font-size: 0.9em}
+#StyleV20Sol .ui-datepicker a { text-decoration: none; font-weight: normal}
+#StyleV20Sol input[type="text"].jQueryTimepicker,
+#StyleV20Sol input[type="text"].jQueryDateTimepicker,
+#StyleV20Sol input[type="text"].jQueryDatepicker	{ width: 7em; padding-right: 30px; background: #fff url('../FWImages/cal.gif') top right no-repeat}
+#StyleV20Sol input[type="text"].jQueryTimepicker:disabled,
+#StyleV20Sol input[type="text"].jQueryDateTimepicker:disabled,
+#StyleV20Sol input[type="text"].jQueryDatepicker:disabled	{ padding-right: 00px; background: #f7f7f7}
+#StyleV20Sol input[type="text"].jQueryDateTimepicker { width: 9em}
+#StyleV20Sol input[type="text"].jQueryTimepicker { width: 4em}
+
+#SchooljaarSelect { font-size: 12px; letter-spacing: 0.5; width: 10em; text-align: center}
+
+
+.combobox { min-width: 30em; margin: 0 1em 1em 0; font-size: 0.8em}
+#StyleV20Sol fieldset { margin-bottom: 1em}
+#StyleV20Sol fieldset.fieldset_padding { padding: 0.2em}
+#StyleV20Sol fieldset.fieldset_padding table { width: 100%}
+#StyleV20Sol fieldset.fieldset_padding table td { vertical-align: top; padding: 0.2em}
+#menuarrow 										{ outline: none}
+
+#StyleV20Sol .infobox							{ background: #F9F7EB; border: 1px solid #ddd; margin-bottom: 1em; position: relative; clear:both}
+#StyleV20Sol .infobox.notification				{ background: #F9F7EB url('../FWImages/icons/error.png') no-repeat 15px center}
+#StyleV20Sol .infobox.extrainfo					{ background: #F9F7EB url('../FWImages/icons/help.png') no-repeat 15px center}
+#StyleV20Sol .infobox.extrainfo div,
+#StyleV20Sol .infobox.alert_notification div,
+#StyleV20Sol .infobox.notification div			{ padding-left: 45px}
+#StyleV20Sol .infobox.alert_notification		{ background: #FFC9B5 url('../FWImages/icons/exclamation.png') no-repeat 15px center}
+#StyleV20Sol .infobox > div						{ padding: 5px; border: 1px solid #fff; border-width: 1px 1px 0 1px; position: relative}
+#StyleV20Sol .infobox.notification ul,
+#StyleV20Sol .infobox.alert_notification ul 	{ font-weight: normal; margin: 0.5em 0 0.5em 1em; list-style: circle}
+#StyleV20Sol .infobox.notification ul li,
+#StyleV20Sol .infobox.alert_notification ul li	{ margin-left: 1em}
+#StyleV20Sol .infobox.rounded					{ border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;  background: #f7f7f7 }
+#StyleV20Sol .infobox.rounded > * 				{ border-bottom-right-radius: 15px; border-bottom-left-radius: 15px }
+#StyleV20Sol .infobox.StartPageBottom			{ margin: 0 15px 0 15px}
+#StyleV20Sol .wide								{ width: 70.5%; position: relative; margin-bottom: 5px}
+#StyleV20Sol .narrow							{ width: 28.5%; position: relative; margin-bottom: 5px}
+#StyleV20Sol .scormwide								{ width: 80%; position: relative; margin-bottom: 5px}
+#StyleV20Sol .scormnarrow							{ width: 20%; position: relative; margin-bottom: 5px}
+#StyleV20Sol .left								{ float: left; position: relative}
+#StyleV20Sol .right								{ float: right; position: relative}
+#StyleV20Sol .inset								{ background: #fff; padding: 0.5em 1em; border: 1px solid #ddd; border-bottom: 1px solid #F4F2E6; border-right: 1px solid #F4F2E6; overflow: auto; position: relative; }
+#StyleV20Sol .infobox h2 						{ margin: -18px auto 0 auto; background: #FFD203; width: 40%; font-size: 18px; line-height: 120%; border: 1px solid #ccc; border-radius: 5px; text-shadow: #ffe986 0px 1px 0}
+#StyleV20Sol table.infobox .infobox				{ margin: 0}
+#StyleV20Sol .clearFloat						{ overflow:hidden; clear:both}
+
+#StyleV20Sol .infobox > div:after				{ content: "."; display: block; height: 0;  clear: both; visibility: hidden}
+
+#StyleV20Sol p.small							{ margin: 0; font-size: 11px; color: #666}
+#StyleV20Sol p.alert							{ background: #FBE3E4 url('../FWImages/icons/error.png') no-repeat 15px center; padding: 5px 5px 5px 40px; border: 1px solid #f00; margin-bottom: 1em}
+#StyleV20Sol p.meta								{ margin: 0 0 1em 0; font-size: 11px; color: #666}
+#StyleV20Sol a.ForumLink						{ font-weight: bold}
+#StyleV20Sol em									{ color: #666}
+#StyleV20Sol .lijst.ThreadOverzicht td			{ vertical-align: middle; padding: 1em 0 0 0}
+#StyleV20Sol .lijst td.bericht					{ padding: 1em 1em 0 1em}
+
+#StyleV20Sol .rekeninginfo td					{ padding: 0px 2px; padding-right: 10px}
+#StyleV20Sol .rekeningHeader					{ text-align: right; font-weight: bold}
+
+#StyleV20Sol .KleurPreview	span				{ padding: 2px 5px; font-family: 'Courier New';}
+
+#StyleV20Sol .INFO, 
+#StyleV20Sol .ALERT								{ margin-left: 1em; text-decoration: none; vertical-align: top; background: #ddd; border: 1px solid #fff; color: #000; padding: 0px 5px; border-radius: 4px}
+#StyleV20Sol .INFO:hover,
+#StyleV20Sol .ALERT:hover						{ color: #fff; background: #777; border-color: #ddd; text-decoration: none}
+#StyleV20Sol .ALERT								{ background: #FFC9B5}
+#StyleV20Sol .ALERT:hover						{ background: #FF8052}
+#StyleV20Sol .small_icon						{ margin-left: 10px; vertical-align: text-top; }
+#StyleV20Sol .TinyMCEWrapper .mceEditor { float: left}
+
+#StyleV20Sol .WARNING							{ margin-left: 1em; text-decoration: none; vertical-align: top; background: #ff9b65; border: 1px solid #fff; color: #000; padding: 0px 5px; border-radius: 4px}
+#StyleV20Sol .ERROR								{ margin-left: 1em; text-decoration: none; vertical-align: top; background: #ff7676; border: 1px solid #fff; color: #000; padding: 0px 5px; border-radius: 4px}
+#StyleV20Sol .WARNING:hover						{ color: #fff; background: #ff7428; border-color: #ddd}
+#StyleV20Sol .ERROR:hover						{ color: #fff; background: #ff5151; border-color: #ddd}
+#StyleV20Sol .StatusAfgewerkt,
+#StyleV20Sol .StatusNietVanToepassing,
+#StyleV20Sol .StatusNietAfgewerkt 				{ display: block; text-decoration: none; background-color: #F17E54; width: 10em; text-align: center; color: #fff; padding: 2px 0; border-radius: 2px}
+#StyleV20Sol .StatusNietAfgewerkt:hover 			{ }
+#StyleV20Sol .StatusAfgewerkt,
+#StyleV20Sol .StatusAfgewerkt:hover				 { background-color: #48DD2E}
+#StyleV20Sol .StatusNietVanToepassing			 { background-color: #ddd; color: #666}
+
+
+.BeoordelingSubgroep {margin-left: 2em}
+.BeoordelingCriteria { margin-left: 4em}
+
+div.beoordelingingave,
+div.beoordelingingavetrans,
+div.beoordelingingavelk,
+div.quotatieingave,
+div.quotatieingavelk 						{ background: #fff; border: #808080 1px solid; float: left; line-height: 19px; min-height: 19px; margin:0 1px 1px 0; padding: 3px}
+TEXTAREA.BEOORDELINGCOMMENTAAR 				{ /*height: 19px;*/ /*width: 412px;*/ width: 383px; margin-top: 0px}
+DIV.EINDTERMDETAIL 							{ margin-left: 50px; margin-top: 10px; float: left; width: 760px; /*background-color: #FF0000;*/ /*border: black 1px solid;*/}
+DIV.EINDTERMDETAILQUOTATIE 					{ position: relative; margin-top: -5px; /*background-color: #00FF00;*/ /*border: black 1px solid;*/}
+DIV.EINDTERMDETAILQUOTATIERO 				{ position: relative; float: left; margin-top: -5px; margin-left: 10px; width: 35px; /*border: black 1px solid;*/ /*background-color: #0000FF;*/}
+TEXTAREA.EINDTERMCOMMENTAARINPUT 			{ width: 660px; height: 50px; margin-left: 0px}
+DIV.EINDTERMRADIO 							{ width: 25px; text-align: center; position: relative; float: left;}
+#StyleV20Sol div.beoordelingingave textarea	{ width: 370px; margin: 0}
+div.beoordelingingavetrans					{ visibility: hidden}
+
+#StyleV20Sol .table_solid_collapse ol { margin-left: 2em}
+
+#StyleV20Sol .TABLE_SOLID_COLLAPSE#AfwezigheidLeerlingKlasTabel th, 
+#StyleV20Sol .TABLE_SOLID_COLLAPSE#AfwezigheidLeerlingKlasTabel td { padding: 0.1em 0.3em}
+#StyleV20Sol .TABLE_SOLID_COLLAPSE td table.AfwezigheidLeerlingFilterTabel td{ padding: 0.3em; text-align: center; vertical-align: middle; border-bottom: 1px dashed #D6D3BC}
+#StyleV20Sol table.table_solid_collapse tr.tr_faux_thead th { text-align: left; font-weight: normal; vertical-align: middle}
+
+#StyleV20Sol .table_solid_collapse,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE				{ border: 1px solid #ddd; border-collapse: collapse; background: #f7f7f7; margin: 0 0 1em 0}
+#StyleV20Sol .table_solid_collapse ul,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE ul			{ list-style: none;}
+#StyleV20Sol .table_solid_collapse th,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE	th,
+#StyleV20Sol .table_solid_collapse td,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE	td			{ vertical-align: top; border-right: 1px dashed #ddd; padding: 0.5em 1em 0.5em 1em; }
+#StyleV20Sol .table_solid_collapse.KVolgSysteemTabel th,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE.KVolgSysteemTabel	th,
+#StyleV20Sol .table_solid_collapse.KVolgSysteemTabel td,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE.KVolgSysteemTabel	td			{ padding: 0.3em }
+#StyleV20Sol .TABLE_SOLID_COLLAPSE.KVolgSysteemTabel	tr			{ border-bottom: 1px solid #ddd}
+#StyleV20Sol .table_solid_collapse.small_padding	th, 
+#StyleV20Sol .TABLE_SOLID_COLLAPSE.small_padding	th, 
+#StyleV20Sol .table_solid_collapse.small_padding	td, 
+#StyleV20Sol .TABLE_SOLID_COLLAPSE.small_padding	td			{ padding: 0.2em}
+#StyleV20Sol .table_solid_collapse td table td,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE	td table td	{ border: 0; vertical-align: middle; padding: 0px}
+#StyleV20Sol .table_solid_collapse td table.add_padding td,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE td table.add_padding td	{ padding: 0.2em 0.5em}
+#StyleV20Sol .TABLE_SOLID_COLLAPSE colgroup	{ border-right: 2px solid #ddd}
+
+#StyleV20Sol .tr_grey_override,
+#StyleV20Sol .TR_GREY_OVERRIDE					{ background: #f4f2e6}
+#StyleV20Sol .high_contrast .tr_grey_override,
+#StyleV20Sol .high_contrast .TR_GREY_OVERRIDE	{ background: #EFEDE4}
+#StyleV20Sol .high_contrast td,
+#StyleV20Sol .high_contrast td	{ border-bottom: 1px solid #ccc}
+#StyleV20Sol .table_solid_collapse tr.tr_faux_thead,
+#StyleV20Sol .table_solid_collapse thead,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE thead		{ border: 2px solid #ffd204; border-width: 2px 0}
+#StyleV20Sol .table_solid_collapse tfoot,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE tfoot		{ border-top: 2px solid #ffd204}
+#StyleV20Sol .table_solid_collapse tfoot td,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE tfoot td	{ font-weight: bold}
+
+#StyleV20Sol .table_solid_collapse.scrollable  tbody {
+	overflow-y: auto; 
+	height: 500px;
+}
+
+#StyleV20Sol .small_font { font-size: 0.8em}
+#StyleV20Sol .table_small th,
+#StyleV20Sol .table_solid_collapse td table.table_small td,
+#StyleV20Sol .TABLE_SOLID_COLLAPSE td table.table_small td,
+#StyleV20Sol .table_small th,
+#StyleV20Sol .table_small td				{ padding: 1px}
+#StyleV20Sol .table_solid_collapse td table.table_big td,
+#StyleV20Sol .table_solid_collapse td table.table_big th,
+#StyleV20Sol .table_big	th,
+#StyleV20Sol .table_big 	td				{ padding: 0.5em; border: 2px solid #F9F7EB}
+
+#StyleV20Sol table.flat							{ border-collapse: collapse; }
+#StyleV20Sol table.flat td,
+#StyleV20Sol table.flat th						{ padding: 3px 5px;}
+
+#StyleV20Sol table td.EindtermBehaaldSubtitel 						{ width: 760px; font-size: 1.4em}
+#StyleV20Sol table tr.EindtermBehaaldQuotatieRegel td 				{ padding: 2px;}
+#StyleV20Sol table tr.EindtermBehaaldQuotatieRegel td:first-child	{ padding-left: 2em}
+#StyleV20Sol table tr.EindtermBehaaldQuotatieRegel.TR_GREY_OVERRIDE	{ background: #EFEDE4}
+
+
+/*
+	Puntenboek
+*/
+#PuntenboekWrapper						{ width: 100%; position: relative; margin-top: 15px}
+#PuntenKopWrapper						{ width: 250px; position: absolute; left: 0; top: 0}
+#PuntenKopWrapper table					{ width: 250px; margin-bottom: 20px}
+#PuntenOverzichtWrapper					{ margin-left: 250px; right: 0px; overflow-x: scroll !important; overflow-y: hidden !important; overflow: auto; }
+.puntenboek th,
+.puntenboek td							{ background: #efede4; vertical-align: middle; padding: 2px; border: 1px solid #fff;}
+.puntenboek td.heeftInput				{ text-align: left}
+.puntenboek .n							{ border-right: 1px solid #ccc }	
+#PuntenOverzicht th.GeenRapportPunt,
+#PuntenOverzicht th.MinimumVereist 		{ background: #cfc}
+#PuntenboekWrapper a						{ text-decoration: none;}
+.puntenboek td, .puntenboek th			{ text-align: center}
+#PuntenKop td							{ text-align: left}
+.puntenboek th							{ font-weight: normal;}
+.puntenboek .oneven td				{ background: #F4F2E6}
+.puntenboek .IsParent,
+.puntenboek .IsDeeltoets 		{ background: #e6e4db; border-right-color: #e6e4db}
+.puntenboek .oneven .IsParent,
+.puntenboek .oneven .IsDeeltoets { background: #eae9dd; border-right-color: #eae9dd}
+.puntenboek .IsDeeltoets 		{ font-size: 0.8em}
+
+.puntenboek .puntencellA					{ font-weight: bold; color: #00f}
+.puntenboek .puntencellB					{ font-weight: bold; color: #f00}
+.puntenboek .puntencellC					{ font-weight: bold; color: #f90}
+#StyleV20Sol .puntenboek input.inputpunten	{ width: 2em;}
+#StyleV20Sol .ToetsGegevens td 			{ padding: 0.4em}
+.i 										{ position: absolute; background: #fff; border-radius: 3px; padding: 0.5em; text-align: left; box-shadow: 0px 2px 2px #777; top: 4em; display:none; }
+#StyleV20Sol .AttitudeVinkAan, #StyleV20Sol .AttitudeVinkUit,
+#StyleV20Sol .AttitudeVinkAan:hover, #StyleV20Sol .AttitudeVinkUit:hover	{ border: 0; text-decoration: none}
+#StyleV20Sol #PuntenOverzicht input.grower 		{ width: 2em}
+#StyleV20Sol #PuntenOverzicht input.grower.inputcommentaar		{ width: 6em}
+#StyleV20Sol #PuntenOverzicht input.error			{ border-color: #f00; background: #FBE3E4}
+
+#StyleV20Sol .VoorbeeldCommentaar {
+	width: 250px;
+	display: none;
+	text-align: left;
+}
+
+/* 
+	Mededelingen inbox
+*/
+#MededelingInbox { width: 100%}
+#MededelingInbox tr {
+	border-bottom: 1px solid #eaeaea;
+	background: #fdfdfd;
+}
+#MededelingInbox tr.oneven {
+	background: #f7f7f7;
+}
+#MededelingInbox tr.ongelezen td{
+	font-weight: bold;
+}
+#MededelingInbox td .line {
+	height: 1.4em; 
+	overflow: hidden;
+}
+#MededelingInbox .selected td .line {
+	height: auto; 
+	overflow: visible;
+}
+#MededelingInbox .content {
+	display: none
+}
+
+/* OPLOSSEN MET JAVASCRIPT OMDAT IE7 DISPLAY: TABLE-CELL NIET ONDERSTEUNT
+#MededelingInbox .selected .content {
+	display: table-cell;
+}
+#MededelingInbox .selected .content_stripped {
+	display: none
+}*/
+#MededelingInbox thead  tr {
+	text-align: left;
+	background: #F9F7EB;
+	overflow: hidden;
+	font-weight: bold;
+}
+#MededelingInbox thead  tr th {
+	border-bottom: 2px solid #ffd204
+}
+#MededelingInbox th, #MededelingInbox td {
+	padding: 0.2em;
+	vertical-align: top;
+}
+#MededelingInbox td {
+	cursor: pointer;
+	color: #666;
+}
+#MededelingInbox .selected td {
+	color: #333;
+}
+#MededelingInbox td.attach {
+	text-align: center;
+}
+#MededelingInbox tr:last-child {
+	border: 0;
+}
+#MededelingInbox tr td {
+}
+#MededelingInbox .content p{
+	margin: 0.3em auto 0.3em;
+}
+#MededelingInbox ul, #MededelingInbox ol{
+	margin-left: 5em;
+}
+#MededelingInbox ul{
+	list-style: disc;
+}
+
+/*
+	Multi Input
+*/
+#StyleV20Sol .SuggestionBox,
+#StyleV20Sol .MultiInputContainer {
+	
+	border: 1px solid #ddd;
+	background: #fff;
+	width: 400px;
+	cursor: text;
+	padding-bottom: 0.4em
+}
+#StyleV20Sol .SuggestionBox {
+	cursor: default;
+	border-width: 0 1px;
+	background: #F4F2E6;
+	position: absolute;
+	padding: 0;
+	display: none;
+}
+#StyleV20Sol .SuggestionBox ul {
+	font-weight: bold;
+}
+#StyleV20Sol .SuggestionBox ul li {
+	border-bottom: 1px solid #ddd;
+}
+#StyleV20Sol .SuggestionBox ul li.expl {
+	padding: 0.4em;
+}
+#StyleV20Sol .SuggestionBox ul li a{
+	display: block;
+	padding: 0.4em;
+	text-decoration: none;
+}
+#StyleV20Sol .SuggestionBox ul li a:hover{
+	background: #EFEDE4;
+}
+#StyleV20Sol table.table_small .SuggestionBox ul em {
+	font-weight: normal;
+	font-style: italic;
+}
+#StyleV20Sol .MultiInputContainer input:focus,
+#StyleV20Sol .MultiInputContainer input:hover,
+#StyleV20Sol .MultiInputContainer input {
+	border: 0;
+	padding: 0;
+	width: 5em;
+	margin: .4em 0 0 .4em;
+}
+#StyleV20Sol .MultiInputContainer a span {
+	font-weight: bold;
+	text-decoration: none;
+	color: #aaa;
+	font-size: 1.2em
+}
+#StyleV20Sol .MultiInputContainer  a:hover span{
+	color: #333
+}
+#StyleV20Sol .MultiInputContainer a {
+	border: 1px solid #ddd;
+	background: #F4F2E6;
+	border-radius: 3px;
+	margin: .4em 0 0 .4em;
+	line-height: 2.5em;
+	padding: 0.2em;
+	cursor: pointer;
+	text-decoration: none
+}
+#StyleV20Sol .MultiInputContainer a:hover {
+	border: 1px solid #ffd204;
+	background: #EFEDE4;
+}
+
+
+/*
+	FAQ Box
+*/
+
+#movieBox a img				{ border: 2px solid #fff}
+#movieBox a:hover img		{ border: 2px solid #ffd204}
+
+#iframeBox,
+#movieBox { width: 640px; min-height: 500px;padding: 10px; background: #fff; position: absolute; left: 50%; top: 50px; border: 1px solid #ddd; margin: 0 0 0 -320px; -moz-box-shadow: 0px 0px 10px 5px #bbb; display: none}
+#closeMovieBox,
+#closeIframe { display: block; position: absolute; right: -15px; top: -15px; width: 30px; height: 30px; text-indent: -9999px; background: url('../FWImages/closebox.png') no-repeat;outline: none}
+#flowPlayer { width:640px; height:498px}
+.feedbackform p { margin: 0 0 0.5em 0; padding: 0}
+.feedbackform h4 { margin: 0.5em 0}
+.feedbackform #FAQSurveyName { display: none}
+#MovieURLWrapper {
+	float: right;
+}
+#MovieURL {
+	width: 4em;
+}
+#MovieURL:focus{
+	width: 16em;
+}
+
+
+/*
+#StyleV20Sol .GrafiekWrapper 							{ float:left; width: 49%; margin-left: 1%}
+#StyleV20Sol .GrafiekWrapper:nth-child(even) 			{ margin-left: 0; clear:left;}
+#StyleV20Sol .GrafiekWrapper:nth-child(even):last-child	{ width: 100%}
+*/
+#StyleV20Sol .ControlButton 									{ outline: none}
+#StyleV20Sol .ControlButton	img								{ opacity: 0.3; -khtml-opacity: 0.3; -moz-opacity: 0.3}
+#StyleV20Sol .lijst tr:hover td:not([bgcolor])				{ background: #f4f2e6}
+#StyleV20Sol table.lijst tr.TR_IMPORTANT:hover  td.opengeklapt,
+#StyleV20Sol .lijst tr.TR_IMPORTANT:hover td					{ background: #D9AD82}
+#StyleV20Sol table.lijst tr.TR_NOTIFICATION:hover  td.opengeklapt,
+#StyleV20Sol .lijst tr.TR_NOTIFICATION:hover td					{ background: #99CCCC}
+#StyleV20Sol tr:hover .ControlButton img						{ opacity: 0.7; -khtml-opacity: 0.7; -moz-opacity: 0.7}
+#StyleV20Sol tr .ControlButton:hover img						{ opacity: 1; -khtml-opacity: 1; -moz-opacity: 1}
+
+#StyleV20Sol .LijstNavigatie 								{ text-align: center; margin-bottom: 1em}
+#StyleV20Sol .LijstNavigatie li								{ display: inline; margin: 0 0.5em}
+#StyleV20Sol .LijstNavigatie a								{ text-decoration: none}
+#StyleV20Sol .LijstNavigatie li,	
+#StyleV20Sol .LijstNavigatie a,	
+#StyleV20Sol .LijstNavigatie select							{ color: #666}
+#StyleV20Sol .LijstNavigatie a:hover							{ text-decoration: none; font-weight: bold}
+
+#StyleV20Sol #overige_menu 									{ clear: both; border-bottom: 1px solid #fff; position: relative; margin-right: -15px}
+#StyleV20Sol #overige_menu ul								{ border-bottom: 1px solid #e1e1e1; background: #f2f2f2}
+
+	
+#StyleV20Sol ul.uitklap 					{ margin: 0; padding: 0; position: relative; overflow: visible; list-style: none; overflow: auto}
+#StyleV20Sol ul.uitklap li 					{ float: left; height: 34px; margin: 3px; overflow: hidden; position: relative; width: 210px}
+#StyleV20Sol ul.uitklap li select			{ width: 155px; margin-top: 8px; font-size: 0.9em; }
+#StyleV20Sol ul.uitklap li a 				{ display: block; height: 24px; line-height: 1.2em; text-decoration: none; padding: 5px; border-radius: 5px; text-decoration: none; position: relative}
+#StyleV20Sol ul.uitklap li a img 			{ margin-right: 10px; float: left; width: 24px; height: 24px; vertical-align: middle}
+#StyleV20Sol ul.uitklap li a:hover 			{ text-decoration: none; background: #f4f2e6}
+#StyleV20Sol ul.uitklap li a:hover span		{ text-decoration: underline}
+
+#StyleV20Sol #content table.lijst ul.uitklap li 	{ width: 19.5%}
+#StyleV20Sol #overige_menu ul.uitklap li a:hover	{ background: #ebebeb}
+	
+
+#content table.acties td 				{ text-align: center; width: 32px; padding: 0 10px}
+#content table.acties a:hover 		{ text-decoration: none}
+#content table.informatie td 			{ padding: 0px 10px}
+#content table.lijst 					{ width: 100%; border-collapse: collapse; color: #000; margin-bottom: 1em}
+#content table.lijst	td ul,	
+#content table.lijst	td ol 			{ margin:0 0 1em 1em; padding: 0 1em}
+#content table.lijst	td ul.uitklap	{ margin:0; padding: 0}
+	#content table.lijst tr 								{ height: 24px; background: #fefefe}
+	#content table.lijst td, 				
+	#content table.lijst th								{ padding: 2px 5px}
+	#content table.lijst th 								{ font-size: 13px; border: 2px solid #FFD203; border-width: 2px 0; text-align: left; font-weight: normal}
+	#content table.lijst td 								{ border-bottom: 1px solid #ddd; vertical-align: middle}
+	#content table.lijst tr.oneven 						{ background: #F9F7EB}
+	#content table.lijst td.opengeklapt 					{ border: 1px solid #ddd; border-width: 0 1px; background: #FAF9F4}
+	#content table.lijst td.uitgeklapt					{ background: #FAF9F4; padding: 0; }
+	#StyleV20Sol tr.TR_IMPORTANT,
+	#content table.lijst tr.TR_IMPORTANT td.opengeklapt,
+	#content table.lijst tr.TR_IMPORTANT					{ background: #FFCC99}
+	#StyleV20Sol tr.TR_NOTIFICATION,
+	#content table.lijst tr.TR_NOTIFICATION td.opengeklapt,
+	#content table.lijst tr.TR_NOTIFICATION					{ background: #AAEEEE}
+
+.opsomming 						{ padding: 0.5em 0 0 0.5em; background: #EEECE3}
+.opsomming,
+.CheckBoxList					{ border: 1px solid #bbb; border-top: 0;}
+.CheckBoxList li					{ padding: 5px; border-bottom: 1px dotted #ccc}
+.CheckBoxList li:nth-child(odd)	{ background: #EFEDE4}
+.CheckBoxList li:nth-child(even)	{ background: #fff}
+	
+#StyleV20Sol .ActiesLijst				{ border-top: 1px solid #ccc; margin-bottom: 1em}
+#StyleV20Sol .ActiesLijst ul				{ margin: 0 0 0 2em; overflow: hidden; display: none;}
+#StyleV20Sol  fieldset ul					{ margin: 0.5em; }
+#StyleV20Sol ul.brede_opsomming > li.tcell, 
+#StyleV20Sol .ActiesLijst ul.opsomming > li.tcell{ display: block; float: left; width: 24%; margin-bottom: 0.2em; padding: 0; overflow: hidden; height: 1.5em; clear: none}
+#StyleV20Sol  ul.brede_opsomming > li.tcell		{ width: 49.5%; overflow: visible; height: auto}
+#StyleV20Sol .ActiesLijst ul > li > input	{ margin-right: 0.5em}
+#StyleV20Sol .ActiesLijst label			{ display: inline; float: none; overflow: hidden}
+#StyleV20Sol .ActiesLijst li.parent		{ width: 100%; padding: 0}
+#StyleV20Sol .ActiesLijst li.parent a		{ outline: none}
+#StyleV20Sol .ActiesLijst li.parent span	{ display: block; background: #EEECE3; padding: 0.3em; border: 1px solid #ccc; border-top: 0; margin-bottom: -1px; border-bottom-left-radius: 5px;}
+#StyleV20Sol .ActiesLijst li.parent img	{ width: 24px; vertical-align: middle; margin-right: 1em}
+
+#StyleV20Sol .formTabel .ActiesLijst li.parent span { margin: 0}
+
+#StyleV20Sol #Bijlagen 					{ margin-bottom: 10px}
+#StyleV20Sol #Bijlagen img				{ vertical-align: middle}
+#StyleV20Sol #Bijlagen li					{ line-height: 16px; margin-bottom: 0.2em}
+#StyleV20Sol #Bijlagen .Delete			{ display: block; width: 16px; height: 16px; float: left; margin-right: 0.5em}
+#StyleV20Sol #Bijlagen a					{ text-decoration: none}
+#StyleV20Sol #Bijlagen a:hover			{ text-decoration: underline}
+#StyleV20Sol #RekeningControls			{ margin-top: 1em; overflow: hidden; list-style: none}
+#StyleV20Sol #RekeningControls li 		{ float: left; text-align: center; margin-right: 1em;}
+#StyleV20Sol #RekeningControls li a		{ text-decoration: none; display: block; padding: 5px; border-radius: 5px; margin: 1px}
+#StyleV20Sol #RekeningControls li a:hover	{ background: #f4f2e6; border: 1px solid #ddd; margin:0}
+#StyleV20Sol #LoginTable					{ position: absolute; margin: 20px 0 0 -380px; left: 50%}
+
+/**
+ * OUDERCONTACT
+**/
+.OCLDubbelOuder { color: #fff; background: #f00; font-weight: bold;}
+#StyleV20Sol table.table_small em	{ font-style: normal; color: #aaa;}
+
+#StyleV20Sol table.OuderContactPeriodeDetails td a { text-decoration:none}
+#StyleV20Sol table.OuderContactPeriodeDetails td.OCLDelete { background: #cfc}
+#StyleV20Sol table.OuderContactPeriodeDetails td.OCLSave { background: #fcc}
+#StyleV20Sol table.OuderContactPeriodeDetails td.OCLSave.OCLReedsBezet { background: #dfdfdf}
+#StyleV20Sol table.OuderContactPeriodeDetails td.OCLDubbel a { color: #fff; font-weight: bold}
+#StyleV20Sol table.OuderContactPeriodeDetails td.OCLDubbel { background: #f00}
+#StyleV20Sol table.OuderContactPeriodeDetails td.OCLBeperkt { background: #ddd; color: #999}
+
+#StyleV20Sol table tr.OCLOuderKeuze,
+#StyleV20Sol table tr.OCLOuderKeuze a { color: #00f}
+/** 
+ * TABS
+**/
+
+#StyleV20Sol ul.InfoboxTabs				{ position: absolute; top: -25px; left: -2px;}
+#StyleV20Sol ul.InfoboxTabs li			{ float: left; height: 22px; border: 1px solid #ddd; margin-right: 3px;  border-bottom: 1px solid #fff}
+#StyleV20Sol ul.InfoboxTabs li span, 
+#StyleV20Sol ul.InfoboxTabs li a			{ outline: none; display: block; background: #EFEDE4; height: 21px; float: left; line-height: 21px; padding: 0 1em; border: 1px solid #fff;  border-bottom: 1px solid #ddd; text-decoration: none }
+#StyleV20Sol ul.InfoboxTabs li span.clickable	{padding-left: 0; padding-right: 0;}
+#StyleV20Sol ul.InfoboxTabs li span.clickable:hover {border-width: 1px 1px 0 1px;}
+#StyleV20Sol ul.InfoboxTabs li span.clickable:hover a {text-decoration: underline;}
+#StyleV20Sol ul.InfoboxTabs li.active, 
+#StyleV20Sol ul.InfoboxTabs li a:hover,
+#StyleV20Sol ul.InfoboxTabs li.active span,
+#StyleV20Sol ul.InfoboxTabs li.active a	{ line-height: 21px; height: 23px; border-width: 1px 1px 0 1px; margin-bottom: 0px; background: #F9F7EB; position: relative}
+#StyleV20Sol ul.InfoboxTabs li.active span,
+#StyleV20Sol ul.InfoboxTabs li.active a	{ font-weight: bold}
+
+
+/*
+
+.puntenboek th,
+.puntenboek td { background: #efede4; vertical-align: middle; padding: 3px 5px; font-weight: normal;}
+
+#PuntenKop {border-right: 1px solid #ccc;}
+#PuntenKop td {text-align: center;}
+#PuntenKop tr td:nth-child(2) {text-align: right;}
+
+#PuntenboekWrapper a { text-decoration: none;}
+#PuntenboekWrapper .puntenboek th,
+#PuntenboekWrapper .puntenboek td { border: 1px solid #F9F7EB; border-width: 0 0 1px 1px}
+#PuntenboekWrapper .puntenboek th { border-bottom: 2px solid #ffd204;}
+
+
+#PuntenOverzichtWrapper,
+#PuntenKopWrapper  { margin: 0; padding: 0; float: left; position: relative;}
+
+#PuntenboekWrapper { padding: 15px 0 15px 250px; overflow: hidden; clear: both}
+
+#PuntenOverzichtWrapper { width: 99%; overflow: auto}
+#PuntenKopWrapper { width: 250px; margin-left: -99%; right: 250px}
+#PuntenOverzicht th {  text-align: center}
+#StyleV20Sol .puntenboek input.inputpunten { width: 3em;}
+
+*/
+
+/**
+ * IMPORT
+**/
+#StyleV20Sol  .infobox > div.FWImportPanel { padding-left: 250px; min-height: 225px}
+/*
+#StyleV20Sol #FWImportLeftPanel	{ width: 250px; right: 250px; margin-left: -99.5%; }
+#StyleV20Sol #FWImportRightPanel	{ width: 99.5%; }
+*/
+/**
+ * DIRECTIEDOCMENTEN STYLES
+**/
+
+#FolderContents #FolderFiles > li a		{ text-decoration: none; padding: 1px; border: 1px solid #fff; border-radius: 5px; outline: none;margin: 0; padding: 55px 5px 0 5px; width: 100px; display:block}
+#FolderContents #FolderFiles > li a:hover	{ border: 1px solid #ffd204}
+
+#FoldersDiv								{ min-height: 300px; max-height: 500px; overflow-x: auto}
+#FolderStructure						{ float: left}
+#FolderStructure,	
+#FolderStructure *						{ list-style: none; margin: 0; padding: 0}
+#FolderStructure a						{ text-decoration: none}
+#FolderStructure a:hover					{ text-decoration: underline}
+#FolderStructure li						{ white-space: nowrap; margin: 1px 0; padding: 0px 0px 0px 18px; background: url('../FWImages/foldersprite.png') top left no-repeat; position: relative}
+#FolderStructure li p						{ padding: 0; height: 20px}
+#FolderStructure .cursus 	 			{ background: #fff; padding: 0}
+#FolderStructure .cursus span 			{ font-weight: bold; display: block; background: #fff; padding: 0}
+#FolderStructure .Map					{ outline: none; padding: 3px 4px 1px 22px; background: url('../FWImages/icons/folder.png') 4px 1px no-repeat; border: 1px solid #fff; border-radius: 5px; position: relative; text-decoration: none}
+#FolderStructure .Map:hover				{ border-color: #ffd204; text-decoration: none}
+#FolderStructure .active					{ font-weight: bold;}
+#FolderStructure .Map.active				{ border-color: #ffd204; cursor: default}
+#FolderStructure .Map.fakeOngelezen,
+#FolderStructure .Map.ongelezen			{ background-image: url('../FWImages/icons/folder_star.png')}
+#FolderStructure .Map.Inactive.fakeOngelezen,
+#FolderStructure .Map.Inactive.ongelezen,
+#FolderStructure .Map.Inactive			{ background-image: url('../FWImages/icons/folder_error.png')}
+.FoldOut,
+.FoldIn									{ outline: none; text-indent: -999em; display: block; width: 14px; height: 14px; background: url('../FWImages/folderplus.png'); position: absolute; left: 0px; top: 3px;}
+.FoldIn									{ background-position: -14px 0px}
+.FoldOut:hover							{ background-position: 0px -14px}
+.FoldIn:hover							{ background-position: -14px -14px}
+#FolderStructure .DropboxFeedback,
+#FolderStructure .DownloadFolder,
+#FolderStructure .EditFolder,
+#FolderStructure .DeleteFolder			{ margin-left: 2px; opacity: 0.3; -khtml-opacity: 0.3; -moz-opacity: 0.3}
+#FolderStructure .DropboxFeedback:hover,
+#FolderStructure .DownloadFolder:hover,
+#FolderStructure .EditFolder:hover,
+#FolderStructure .DeleteFolder:hover		{ opacity: 1; -khtml-opacity: 1; -moz-opacity: 1}
+
+#RefreshingImg													{ position: absolute; top: 1em; right: 1em; display:none;}
+#FolderContents 													{ margin-left: 35px}
+#LinkDiv,
+#BladerenDiv													{ margin-bottom: 15px; border-bottom: 1px solid #ddd; padding-bottom: 5px; color: #666; float: left}
+#LinkDiv { margin-left: 1em}
+.btn_voegtoe {display: inline-block; width: 86px; height: 28px; background: url('../FWImages/btn_voegtoe.gif') no-repeat; text-indent: -9000px; margin-bottom: 2px }
+#FolderContents #FolderFiles.view_thumbs > li a 					{ display: block; width: 88px; height: 16px; }
+#FolderContents #FolderFiles.view_thumbs > li						{ display: block; width: 100px; height: 73px; float: left; position: relative; margin: 0px 15px 15px 0; text-align: center}
+#FolderContents #FolderFiles.view_thumbs > li span.icon			{ display: block; width: 47px; height: 47px; position: absolute; top: 2px; left: 23px; background: url(../FWImages/icons/unknown.png) no-repeat; text-indent: -999em}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.doc,
+#FolderContents #FolderFiles.view_thumbs > li span.icon.docx		{ background: url(../FWImages/icons/doc.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.xls,
+#FolderContents #FolderFiles.view_thumbs > li span.icon.xlsx		{ background: url(../FWImages/icons/xls.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.csv			{ background: url(../FWImages/icons/csv.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.xml			{ background: url(../FWImages/icons/xml.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.ppt,
+#FolderContents #FolderFiles.view_thumbs > li span.icon.pptx		{ background: url(../FWImages/icons/ppt.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.pdf		{ background: url(../FWImages/icons/pdf.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.txt		{ background: url(../FWImages/icons/txt.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.jpg,
+#FolderContents #FolderFiles.view_thumbs > li span.icon.jpeg,
+#FolderContents #FolderFiles.view_thumbs > li span.icon.gif,
+#FolderContents #FolderFiles.view_thumbs > li span.icon.png		{ background: url(../FWImages/icons/jpg.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li span.icon.link		{ background: url(../FWImages/icons/link.png) no-repeat}
+#FolderContents #FolderFiles.view_thumbs > li input[type="checkbox"] { position: absolute; top: 36px; left: 28px}
+#FolderContents #FolderFiles.view_list							{ margin-bottom: 20px}
+#FolderContents #FolderFiles.view_list > li 						{ height: 22px; clear: left;position: relative}
+#FolderContents #FolderFiles.view_list > li.reset					{ margin-top: -264px;}
+#FolderContents #FolderFiles.view_list > li img					{ vertical-align: text-bottom}
+#FolderContents #FolderFiles.view_list > li input[type="checkbox"] 	{ position: absolute; top: 4px; left: 5px;}
+#FolderContents #FolderFiles.view_list > li a						{ margin: 0; padding: 2px 5px 2px 21px; line-height: 16px; height: 16px; width: 200px; overflow: hidden; display:block; background: url(../FWImages/icons/unknown_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.docx,
+#FolderContents #FolderFiles.view_list > li a.doc					{ background: url(../FWImages/icons/doc_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.csv				{ background: url(../FWImages/icons/csv_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.xml				{ background: url(../FWImages/icons/xml_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.xls,
+#FolderContents #FolderFiles.view_list > li a.xlsx				{ background: url(../FWImages/icons/xls_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.ppt,
+#FolderContents #FolderFiles.view_list > li a.pptx				{ background: url(../FWImages/icons/ppt_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.pdf					{ background: url(../FWImages/icons/pdf_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.txt					{ background: url(../FWImages/icons/txt_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.jpg,
+#FolderContents #FolderFiles.view_list > li a.jpeg,
+#FolderContents #FolderFiles.view_list > li a.gif,
+#FolderContents #FolderFiles.view_list > li a.png					{ background: url(../FWImages/icons/jpg_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.link				{ background: url(../FWImages/icons/link_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a:hover				{ background: #fff3bb url(../FWImages/icons/unknown_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.docx:hover,
+#FolderContents #FolderFiles.view_list > li a.doc:hover			{ background: #fff3bb url(../FWImages/icons/doc_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.csv:hover			{ background: #fff3bb url(../FWImages/icons/csv_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.xml:hover			{ background: #fff3bb url(../FWImages/icons/xml_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.xlsx:hover,
+#FolderContents #FolderFiles.view_list > li a.xls:hover			{ background: #fff3bb url(../FWImages/icons/xls_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.pptx:hover,
+#FolderContents #FolderFiles.view_list > li a.ppt:hover			{ background: #fff3bb url(../FWImages/icons/ppt_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.pdf:hover			{ background: #fff3bb url(../FWImages/icons/pdf_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.txt:hover			{ background: #fff3bb url(../FWImages/icons/txt_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.jpg:hover			{ background: #fff3bb url(../FWImages/icons/jpg_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_list > li a.link:hover			{ background: #fff3bb url(../FWImages/icons/link_16.png) no-repeat 2px 2px}
+#FolderContents #FolderFiles.view_details a 						{ text-decoration: none;}
+#FolderContents #FolderFiles.view_details a:hover 				{ text-decoration: underline;}
+
+#FolderContents .ui-selectee 	{ padding: 1px; border: 1px solid #fff; border-radius: 5px}
+#FolderContents .ui-selected,
+#FolderContents .ui-selecting	{ background: #fff3bb; padding: 1px; border: 1px solid #ffd204; border-radius: 5px}
+#StyleV20Sol #FolderControls		{ border: 1px solid #ddd; border-right: 0; position: absolute; top: 45px; right: 0; background: #f8f8f8; padding: 3px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+#StyleV20Sol #FileControls		{ border: 1px solid #ddd; border-left: 0; position: absolute; top: 45px; left: 0; background: #f8f8f8; padding: 3px; border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+
+#FolderFiles .h {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+
+.FilePopup { position: absolute; top: -30px;  left: 70px; background: #fff; min-width: 250px; border: 2px solid #ddd; display:none; padding: 5px}
+.FilePopup ul { text-align: left}
+
+/**
+/**
+ * NAVIGATIE
+**/ 
+
+#top_nav, 
+.navbar 					{ zoom: 1; border-bottom: 1px solid #e1e1e1; clear: both;}
+
+#top_nav .ui-icon, .navbar .ui-icon {
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	margin-top: -6px;
+}
+
+#top_nav:before,.navbar:before, #top_nav:after, .navbar:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+#top_nav:after, .navbar:after { clear: both; }
+
+.navbar					{ border: 1px solid #fff; border-width: 1px 1px 0 1px}
+#StyleV20Sol #top_nav	{ margin-right: -16px}
+#top_nav > li, 
+.navbar > li 				{ float:left; margin: 0; position: relative; margin-bottom: 1px}
+#top_nav > li > a, 
+#top_nav > li > form > a, 
+#top_nav li span, 
+.navbar li a, 
+.navbar li span 			{ outline:none; text-decoration: none; position: relative; display: block; height: 40px; background: url('../FWImages/spacer.png') right repeat-y; padding: 0 10px; font: 14px/40px "Century Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;color: #000; text-decoration: none; text-shadow: #fff 1px 1px 1px}
+.navbar li a, 
+.navbar li span 			{ background: none; }
+#top_nav li a img, 
+#controle_log li a img, 
+.navbar li a img 			{ margin-top: 4px}
+#top_nav li.active, 
+.navbar li.active 		{ border-top-left-radius: 10px; border-bottom: 1px solid #f7f7f7; margin: 0}
+#top_nav li.verkleurd 	{ border-bottom: 1px solid #f2f2f2; background: #f2f2f2}
+#top_nav li.active a, 
+.navbar li.active a 		{ font-weight: bold}
+
+#top_nav input[type=text] {width: 75px}
+#top_nav input[type=text]:focus {width: 200px}
+#top_nav select {max-width: 135px}
+
+#StyleV20Sol sup.counter								{ text-shadow: none; background: #f96; color: #FFFFFF; border-radius: 0px;  padding-left: 5px; padding-right: 5px; border: 1px solid #f96;  margin-left: 5px;}
+#StyleV20Sol a:hover sup.counter						{ background: #ffd204; text-decoration: none}
+#StyleV20Sol #top_nav li.TAB_CURRENT a,
+#StyleV20Sol #top_nav li.TAB_LAST_CURRENT a 			{ text-decoration: underline; cursor:default;}
+#startpage_nav										{ height: 39px; position: absolute; top: -4px; left: -4px; right: 5px; }
+#startpage_nav li									{ float: left}
+#startpage_nav li a									{ display: block; padding-left: 10px; height: 39px; line-height: 42px; text-decoration: none; background: url('../FWImages/startpaginasprite.png') -163px 78px; overflow: hidden}
+#startpage_nav li span								{ display: block; background: url('../FWImages/startpaginasprite.png') right 78px; padding-right: 10px; text-transform:uppercase}
+#startpage_nav li.TAB_FIRST_NO_CURRENT a 				{ background-position: 0 78px}
+#startpage_nav li a:hover								{ background-position: -163px 39px ;}
+#startpage_nav li a:hover span 						{ background-position: right 39px ;}
+#startpage_nav  li.TAB_FIRST_NO_CURRENT a 				{ background-position: 0 78px}
+#startpage_nav li.TAB_FIRST_NO_CURRENT a:hover 		{ background-position: 0px 39px ;}
+#startpage_nav li.TAB_FIRST_NO_CURRENT a:hover span	{ background-position: right 39px ;}
+#startpage_nav li.TAB_FIRST_CURRENT a:hover 			{ background-position: 0px 0px ;}
+#startpage_nav li.TAB_FIRST_CURRENT a:hover span 		{ background-position: right 0px ;}
+#startpage_nav li.TAB_CURRENT  a						{ background-position: -163px 0px ;}
+#startpage_nav li.TAB_CURRENT  a span 					{ background-position: right 0px ;}
+#startpage_nav  li.TAB_FIRST_CURRENT a 				{ background-position: 0 0}
+#startpage_nav  li.TAB_FIRST_CURRENT a  span			{ background-position: right 0}
+
+#controle_log a span, 
+#top_nav a span,
+.navbar a span,
+#Icons a span,
+.column a span						{ display: none; position: absolute; top: -22px; left: -34px; width: 100px; height: 33px; background: url('../FWImages/balloon.png') no-repeat top; text-align: center; font-size: 10px; padding: 5px 10px 0 10px; text-decoration: none; line-height: 10px}
+.column a span 						{ left: 0; }
+#content #Icons a:hover, 
+#content #Icons a:hover span, 
+#content .column a:hover, 
+#content .column a:hover span, 
+#controle_log a:hover span { display: block; text-decoration: none}
+/* BVDS: vanaf 11/01/03 met JS */
+/*#top_nav a:hover span,				
+.navbar a:hover span					*/
+#Icons a span {left:0}
+
+#controle_log 						{ position: absolute; top: 4px; right: 0}
+.startpage #controle_log				{ right: 15px}
+#controle_log li						{ float: left}
+#controle_log li a 					{ display: block; padding: 0 0 0 10px; position: relative}
+
+#StyleV20Sol.startpage #controle_log { top: -4px}
+
+#StyleV20Sol table.table_no_style tr {
+	background: transparent;
+}
+#StyleV20Sol table.table_no_style td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0
+}
+
+#top_nav li a.MSClosed:hover,
+#top_nav li a.MSOpen {
+	background-color: #fbfbfb;
+}
+.MSField {
+	position: relative;
+}
+#top_nav > li .MSField > a {
+	padding-right: 20px;
+}
+.MSField div { position: absolute;  top: 100%; left: -1px; background: #fbfbfb; padding: 0.5em; display: none; border: 1px solid #e1e1e1; border-width: 0 1px 1px 1px}
+.MSField div ul { width: 220px}
+
+.fixedcolumn {
+	position: fixed;
+	background-color: #F00;
+}
+
+/**
+ * HOMEPAGE LAYOUT (fixed) 
+**/
+#StyleV20Sol .column 						{ width: 75px; float: left; margin-right: 1px;}
+#StyleV20Sol #Icons a,
+#StyleV20Sol .column a 						{ display: block; text-align: center; position: relative; padding: 5px}
+#StyleV20Sol #Icons img,
+#StyleV20Sol .column img						{ position: relative;}
+#StyleV20Sol .column h3 						{ font-size: 12px; letter-spacing: 0; text-align: center; line-height: 1.2em; height: 2.4em; border-right: 1px solid #ddd; }
+
+#StyleV20Sol #Icons ul,
+#StyleV20Sol .column ul						{ list-style: none}
+#StyleV20Sol #Icons ul li a,
+#StyleV20Sol .column ul li a 					{ border: 1px solid #ddd; border-radius: 5px; margin: 0 5px 5px 5px; background: #eee; text-decoration: none;}
+#StyleV20Sol #Icons ul li a 					{ background: url(../FWStyles/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) repeat-x scroll 50% -1em #EEEEEE}
+#StyleV20Sol #Icons ul li a:hover,
+#StyleV20Sol .column ul li a:hover 				{ background: #fafafa;}
+#StyleV20Sol #Icons ul li.highlight_item a,
+#StyleV20Sol .column ul li.highlight_item a 	{ border-color: #ffd000; background: #f5f0d7}
+
+#StyleV20Sol #Icons ul li 						{ width: 33%; float:left}
+#StyleV20Sol #Icons ul li a 					{ padding: 1em 0}
+
+#StyleV20Sol .StartPageAside 				{ float: left; width: 16em; margin-left: -100%; padding-left: 15px;  position: relative}
+#Icons 										{ position: relative; margin-left: 18em;}
+#IconsWrapper								{ width: 100%; position: relative; float: left; margin-bottom: 1em}
+
+
+#StyleV20Sol .lijst a { text-decoration: none}
+#StyleV20Sol .lijst a:hover { text-decoration: underline}
+
+/**
+ * STRUCTUUR
+**/ 
+
+
+/* fluid */
+#StyleV20Sol	 					{ background: url('../FWImages/background.png') repeat-x; font: 12px/130% Helvetica, Arial, sans-serif; color: #333}
+	#StyleV20Sol #wrapper 			{ padding-right: 15px; background: url('../FWImages/content_bg_so_fluid.png') top right no-repeat;}
+	#StyleV20Sol #container 			{ width: 98%}
+	#StyleV20Sol #content_wrap		{ background: url('../FWImages/content_bg_so_fluid.png') top left no-repeat}
+
+/* fixed */
+#StyleV20Sol.fixed_width #container	{ width: 970px}
+
+/* general */
+#navigation_wrapper 					{ height: 33px; position: relative; border-bottom: 1px solid #e1e1e1; margin-right: -16px
+}
+#container 							{ margin: 0px auto}
+#container h1#SchoolonlineHeader		{ text-indent: -999em; height: 77px; width: 259px; background:url('../FWImages/StyleV20Header.png') no-repeat; position: relative;}
+#header								{ height: 77px; position: relative}
+#content_wrap 						{ padding: 4px 6px 0 6px; position: relative; clear: both; min-height: 623px}
+#content 							{ clear: both; border-top: 1px solid #fff; padding: 1em 0 1em 1em;}
+
+
+
+/* Z-INDEX FIXEN */
+#top_nav { position: relative; z-index: 1}
+#controle_log { position: absolute; z-index: 2}
+#content { position: relative; z-index: 0}
+#controle_log a span,
+.column a span { position: absolute; z-index: 3}
+
+#maanden { z-index: 2}
+#agenda { z-index: 1}
+#maanden a,
+#maanden table { position: relative; z-index: 3}
+#maanden .ui-slider {position: relative; z-index: 2}
+#maanden .ui-slider-handle {position: absolute; z-index: 2}
+.AgendaItemPopUp { z-index: 100}
+.UurroosterDetail { z-index: 2}
+.FilePopup,
+#startpage_nav,
+#controle_log,
+#FolderControls,
+#RefreshingImg { z-index: 5}

@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>Schoolonline rapport upload</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="popBox1.3.0_C.js" type="text/javascript"></script>
+	<link href="popBox1.3.0_.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#input-box-1').popBox({width:500, newlineString: "\n" });
+            $('#input-box-2').popBox({width:500, newlineString: "\n" });
+        });
+    
+    </script>
+<body>
+	<form name='PuntenboekLeerkrachtEdit' id='PuntenboekLeerkrachtEdit'  action='https://bsvisitatie.schoolonline.be/PuntenboekLeerkracht/PuntenboekLeerkrachtSave.php' method='post' >
+		<ul>
+			<li>PHP Session ID: <input type="text" value="bd1717af6d8382be1fa4d41d80d02e2a74185ee7" name="SessionID"/>
+			<li>omschrijving: <input type="text" value="TEST+TDE1" name="EvaluatieMomentName"/>
+			<li>vermoedelijk om dropdown te populeren: <input type="text" value="Test+TDE1" name="VakLinkLeerkrachtKlasDoel"/>
+			<li>datum: <input type="text" value="2013-01-22" name="EvaluatieMomentDatum"/>
+			<li>heeft deelresultaten? <input type="text" value="2" name="EvaluatieMomentEvaluatieMomentTypeID"/>
+			<li>herberekenen op: <input type="text" value="10" name="EvaluatieMomentMaximumPunten"/>
+			<li>is rapportpunt? <input type="text" value="on" name="EvaluatieMomentIsRapportpunt"/>
+			<li>EvaluatieMomentID: <input type="text" value="0" name="EvaluatieMomentID"/>
+			<li>EvaluatieMomentFWAccountID (?): <input type="text" value="222" name="EvaluatieMomentFWAccountID"/>
+			<li>EvaluatieMomentPeriodeID (?): <input type="text" value="77" name="EvaluatieMomentPeriodeID"/>
+			<li>EvaluatieMomentVakLinkLeerkrachtKlasID (?): <input type="text" value="591" name="EvaluatieMomentVakLinkLeerkrachtKlasID"/>
+			<li>AllowPuntenBovenMaximum: <input type="text" value="1" name="AllowPuntenBovenMaximum"/>
+			<li>AllowPuntenOnderNul: <input type="text" value="1" name="AllowPuntenOnderNul"/>
+			<li>EvaluatieMomentOrigineelMaximumPunten: <input type="text" value="30" name="EvaluatieMomentOrigineelMaximumPunten"/>
+			<!--
+			<li><input type="text" value="xxx" name="xxx"/>
+			-->
+		<ul>
+		<br/><br/>
+<textarea COLS=100 ROWS=6 id="myFixedList">
+Je schrijft goede zinnen.
+Je zinsbouw is niet altijd correct.
+Je schrijft correct.
+Let erop dat je ook de eindletters van woorden opschrijft.
+Let op de juiste schrijfwijze van woorden.
+Vergeet ook de leestekens niet.
+Je werkt verzorgd.
+Probeer verzorgder te werken.
+Niet alle vragen zijn correct beantwoord. 
+Wees vollediger in het beantwoorden van vragen.
+Zoek de antwoorden in de tekst.
+Je verbeterde je werk heel grondig. Goed!
+Je maakte een mooie tekening.
+Je kan de juiste informatie uit een tekst halen. Goed gewerkt.
+Gebruik de tijd die je tijdens een groepswerk krijgt om informatie uit te wisselen.	
+</textarea>	
+		<table border="1">
+			<thead>
+				<tr>
+					<td>Leerling ID</td>
+					<td>Score</td>
+					<td>Opmerkingen</td>
+				<tr>
+			<thead>
+			<tbody>
+				<tr>
+					<td>1451<input type="hidden" name="LeerlingLoopbaanID_1451" value="1451"/></td>
+					<td><input type="text" value="10" name="EvaluatieMomentLijnOrigineelPunten_1451"/></td>
+					<td><textarea name="EvaluatieMomentLijnCommentaar_1451" COLS=100 ROWS=6 id="input-box-1"></textarea><td>
+				</tr>
+				<tr>
+					<td>1452<input type="hidden" name="LeerlingLoopbaanID_1452" value="1452"/></td>
+					<td><input type="text" value="9" name="EvaluatieMomentLijnOrigineelPunten_1452"/></td>
+					<td><textarea name="EvaluatieMomentLijnCommentaar_1452" COLS=100 ROWS=6" id="input-box-2"></textarea><td>
+				</tr>
+			</tbody>		
+		<table>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

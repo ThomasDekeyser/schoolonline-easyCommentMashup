@@ -1,0 +1,116 @@
+U bent aangemeld op een andere computer of browser waardoor deze sessie niet meer actief is. Gelieve hier opnieuw aan te melden.
+
+opmerking1
+opmerking2
+opmerking3
+
+
+<form name='PuntenboekLeerkrachtEdit' id='PuntenboekLeerkrachtEdit'  enctype='multipart/form-data'  action='../PuntenboekLeerkracht/PuntenboekLeerkrachtSave.php?SessionID=bd1717af6d8382be1fa4d41d80d02eb59598ac2c' method='post' onkeypress='Save(event);'>
+
+Algemene velden
+===========================================
+omschrijving
+	<input type="text" value="" size="60" name="EvaluatieMomentName" id="EvaluatieMomentName" tabindex="100">
+herberekenen op
+	<input type="text" value="" size="3" id="EvaluatieMomentMaximumPunten" name="EvaluatieMomentMaximumPunten" class="inputpunten" tabindex="103">
+datum
+	<input type="text" value="2013-01-22" size="10" id="EvaluatieMomentDatum" name="EvaluatieMomentDatum" class="jQueryDatepicker hasDatepicker" tabindex="101">
+is rapportpunt
+	<input type="checkbox" name="EvaluatieMomentIsRapportpunt" id="EvaluatieMomentIsRapportpunt" checked="checked" tabindex="104">
+evaluatietype
+	<select id="EvaluatieMomentEvaluatieMomentTypeID" name="EvaluatieMomentEvaluatieMomentTypeID" tabindex="102"> <option value="2">DW</option> </select>
+origineel maximum punten
+<input type="text" value="0" size="3" onkeyup="processPaste($(this));" name="EvaluatieMomentOrigineelMaximumPunten" id="EvaluatieMomentOrigineelMaximumPunten" class="inputpunten" tabindex="105">
+
+Per leerling
+===========================================
+Punten
+	<input type="text" value="" id="EvaluatieMomentLijnOrigineelPunten_1451" name="EvaluatieMomentLijnOrigineelPunten_1451" class="EvaluatieMomentLijnInput inputpunten" tabindex="106">
+Commentaar
+	<input type="text" value="" id="EvaluatieMomentLijnCommentaar_1451" name="EvaluatieMomentLijnCommentaar_1451" class="EvaluatieMomentLijnInput inputcommentaar grower" tabindex="123" style="width: 5em;">
+
+
+
+
+PuntenboekLeerkrachtViewStatePeriodeID=..%2FPuntenboekLeerkracht%2FPuntenboekLeerkrachtEdit.php%3FSessionID%3Dbd1717af6d8382be1fa4d41d80d02eb59598ac2c%26PuntenboekLeerkrachtViewStatePeriodeID%3D77
+	=..%2FPuntenboekLeerkracht%2FPuntenboekLeerkrachtEdit.php%3FSessionID%3Dbd1717af6d8382be1fa4d41d80d02eb59598ac2c%26PuntenboekLeerkrachtViewStateToonEindTotalen%3D2
+EvaluatieMomentName=Test+TDE1
+	"omschrijving"
+VakLinkLeerkrachtKlasDoel=Test+TDE1
+	vermoedelijk om dropdown te populeren
+EvaluatieMomentDatum=2013-01-22
+	"datum"
+EvaluatieMomentEvaluatieMomentTypeID=2
+	"heeft deelresultaten"
+EvaluatieMomentMaximumPunten=30
+	"herberekenen op"
+EvaluatieMomentIsRapportpunt=on
+	"is rapportpunt?"
+EvaluatieMomentID=0			
+		0 voor nieuwe, >0 voor edit van bestaande
+EvaluatieMomentFWAccountID=222
+	???
+EvaluatieMomentPeriodeID=77
+	???
+EvaluatieMomentVakLinkLeerkrachtKlasID=591
+	punten aan correct klasID toekennen?
+AllowPuntenBovenMaximum=1
+AllowPuntenOnderNul=1
+LeerlingLoopbaanID_1451=1451
+LeerlingLoopbaanID_1452=1452
+LeerlingLoopbaanID_1453=1453
+LeerlingLoopbaanID_1454=1454
+LeerlingLoopbaanID_1455=1455
+LeerlingLoopbaanID_1456=1456
+LeerlingLoopbaanID_1457=1457
+LeerlingLoopbaanID_1458=1458
+LeerlingLoopbaanID_1459=1459
+LeerlingLoopbaanID_1460=1460
+LeerlingLoopbaanID_1461=1461
+LeerlingLoopbaanID_1462=1462
+LeerlingLoopbaanID_1463=1463
+LeerlingLoopbaanID_1464=1464
+LeerlingLoopbaanID_1465=1465
+LeerlingLoopbaanID_1466=1466
+LeerlingLoopbaanID_1467=1467
+EvaluatieMomentOrigineelMaximumPunten=30
+EvaluatieMomentLijnOrigineelPunten_1451=10
+EvaluatieMomentLijnCommentaar_1451=rerz
+EvaluatieMomentLijnOrigineelPunten_1452=6
+EvaluatieMomentLijnCommentaar_1452=rzerze
+EvaluatieMomentLijnOrigineelPunten_1453=5
+EvaluatieMomentLijnCommentaar_1453=rzerez
+EvaluatieMomentLijnOrigineelPunten_1454=3
+EvaluatieMomentLijnCommentaar_1454=rzerzer
+EvaluatieMomentLijnOrigineelPunten_1455=
+EvaluatieMomentLijnCommentaar_1455=
+EvaluatieMomentLijnOrigineelPunten_1456=
+EvaluatieMomentLijnCommentaar_1456=
+EvaluatieMomentLijnOrigineelPunten_1457=
+EvaluatieMomentLijnCommentaar_1457=
+EvaluatieMomentLijnOrigineelPunten_1458=
+EvaluatieMomentLijnCommentaar_1458=
+EvaluatieMomentLijnOrigineelPunten_1459=
+EvaluatieMomentLijnCommentaar_1459=
+EvaluatieMomentLijnOrigineelPunten_1460=
+EvaluatieMomentLijnCommentaar_1460=
+EvaluatieMomentLijnOrigineelPunten_1461=
+EvaluatieMomentLijnCommentaar_1461=
+EvaluatieMomentLijnOrigineelPunten_1462=
+EvaluatieMomentLijnCommentaar_1462=
+EvaluatieMomentLijnOrigineelPunten_1463=
+EvaluatieMomentLijnCommentaar_1463=
+EvaluatieMomentLijnOrigineelPunten_1464=
+EvaluatieMomentLijnCommentaar_1464=
+EvaluatieMomentLijnOrigineelPunten_1465=
+EvaluatieMomentLijnCommentaar_1465=
+EvaluatieMomentLijnOrigineelPunten_1466=
+EvaluatieMomentLijnCommentaar_1466=
+EvaluatieMomentLijnOrigineelPunten_1467=
+EvaluatieMomentLijnCommentaar_1467=
+
+
+
+
+
+-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="PuntenboekLeerkrachtViewStatePeriodeID"\r\n\r\n../PuntenboekLeerkracht/PuntenboekLeerkrachtEdit.php?SessionID=bd1717af6d8382be1fa4d41d80d02eb59598ac2c&PuntenboekLeerkrachtViewStatePeriodeID=77\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="PuntenboekLeerkrachtViewStateToonEindTotalen"\r\n\r\n../PuntenboekLeerkracht/PuntenboekLeerkrachtEdit.php?SessionID=bd1717af6d8382be1fa4d41d80d02eb59598ac2c&PuntenboekLeerkrachtViewStateToonEindTotalen=2\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentName"\r\n\r\nTest TDE1\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentDatum"\r\n\r\n2013-01-22\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentEvaluatieMomentTypeID"\r\n\r\n2\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentMaximumPunten"\r\n\r\n30\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentFileName"; filename=""\r\nContent-Type: application/octet-stream\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentID"\r\n\r\n0\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentFWAccountID"\r\n\r\n222\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentPeriodeID"\r\n\r\n77\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentVakLinkLeerkrachtKlasID"\r\n\r\n591\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="AllowPuntenBovenMaximum"\r\n\r\n1\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="AllowPuntenOnderNul"\r\n\r\n1\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1451"\r\n\r\n1451\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1452"\r\n\r\n1452\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1453"\r\n\r\n1453\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1454"\r\n\r\n1454\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1455"\r\n\r\n1455\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1456"\r\n\r\n1456\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1457"\r\n\r\n1457\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1458"\r\n\r\n1458\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1459"\r\n\r\n1459\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1460"\r\n\r\n1460\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1461"\r\n\r\n1461\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1462"\r\n\r\n1462\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1463"\r\n\r\n1463\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1464"\r\n\r\n1464\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1465"\r\n\r\n1465\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1466"\r\n\r\n1466\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="LeerlingLoopbaanID_1467"\r\n\r\n1467\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentOrigineelMaximumPunten"\r\n\r\n10\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1451"\r\n\r\n10\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1451"\r\n\r\nopmerking1 opmerking2 opmerking3\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1452"\r\n\r\n9\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1452"\r\n\r\nopmerking1 opmerking2 opmerking3\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1453"\r\n\r\n8\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1453"\r\n\r\nopmerking1 opmerking2 opmerking3\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1454"\r\n\r\n7\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1454"\r\n\r\nopmerking1 opmerking2 opmerking3\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1455"\r\n\r\n6\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1455"\r\n\r\nopmerking1 opmerking2 opmerking3\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1456"\r\n\r\n5\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1456"\r\n\r\nopmerking1 opmerking2 opmerking3\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1457"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1457"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1458"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1458"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1459"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1459"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1460"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1460"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1461"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1461"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1462"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1462"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1463"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1463"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1464"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1464"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1465"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1465"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1466"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1466"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnOrigineelPunten_1467"\r\n\r\n\r\n-----------------------------15997178482530238661334364014\r\nContent-Disposition: form-data; name="EvaluatieMomentLijnCommentaar_1467"\r\n\r\n\r\n-----------------------------15997178482530238661334364014--\r\n
