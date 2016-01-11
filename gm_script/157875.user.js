@@ -3,15 +3,18 @@
 // @namespace   http://www2.schoolonline.be/
 // @description Maak het gemakkelijker om commentaar lijnen toe te voegen uit een vaste lijst met zinnen
 // @require	   http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js
-// @include		https://www2.schoolonline.be/*/PuntenboekLeerkracht/PuntenboekLeerkrachtEdit.php?*
+// @include		https://www*.schoolonline.be/*/PuntenboekLeerkracht/PuntenboekLeerkrachtEdit.php?*
 // @include		https://*.schoolonline.be/PuntenboekLeerkracht/PuntenboekLeerkrachtEdit.php?*
 // @include		file:///home/thomas/projects/SarahHomeWork/EasyCommentMashup/POC3/PuntenboekLeerkrachtEdit.html
-// @version     1.0.6
+// @grant       GM_getValue
+// @grant       GM_setValue
+// @grant       GM_xmlhttpRequest
+// @grant		GM_addStyle
+// @version     1.0.7
 // ==/UserScript==
 
-log=GM_log;
 //Comment next line to enable logging into javascript error console
-log=function(){};
+//console.log = function() {}
 gmCacheDataKey="FixedCommentList";
 
 
@@ -25,24 +28,24 @@ try {
 } catch(e) { log(e); throw(e) }
 
 function addFixedList() {
-	log("Adding fixed list");	
+	console.log("Adding fixed list");	
 
 	$('select[name^="VakLinkLeerkrachtKlasDoel"]').parent().append('<br>mogelijke commentaar lijnen <textarea COLS=100 ROWS=6 id="myFixedList">'+ GM_getValue(gmCacheDataKey,"")+'</textarea>');
 	$('#myFixedList').change(function() {
-		log("Fixed list changes, updating GM cached value:"+$(this).val());
+		console.log("Fixed list changes, updating GM cached value:"+$(this).val());
 		GM_setValue(gmCacheDataKey,$(this).val());
 	});
 }
 
 
 function keepAlive() {
-	log("Keep session "+getParameterByName('SessionID')+" alive...");
-	var keepAliveUrl= $(location).attr('protocol')+'//'+$(location).attr('host')+'/PuntenboekLeerkracht/PuntenboekLeerkrachtRapportPrintHistory.php?SessionID='+getParameterByName('SessionID');
+	console.log("Keep session "+getParameterByName('SessionID')+" alive...");
+	var keepAliveUrl= $(location).attr('protocol')+'//'+$(location).attr('host')+'/bsvisitatie/PuntenboekLeerkracht/PuntenboekLeerkrachtRapportPrintHistory.php?SessionID='+getParameterByName('SessionID');
 	callUrl(keepAliveUrl);
 }
 
 function callUrl(myUrl) {
-	log("Calling "+myUrl);	
+	console.log("Calling "+myUrl);	
 	
   GM_xmlhttpRequest({
     method: "GET",
@@ -115,7 +118,7 @@ function getParameterByName(name)
 }
 
 function initPopupFields() {
-	log("Init popup fields");	
+	console.log("Init popup fields");	
 
 	$('textarea[id^="EvaluatieMomentLijnCommentaar"]').each(function() {
 		$(this).attr("onmouseover","if ($(this).val().length > 0) {return overlib($(this).val(), DELAY, 0, TIMEOUT, 0 ,CAPTION, 'Commentaar');} else { return void(0);};");
@@ -125,7 +128,7 @@ function initPopupFields() {
 }
 
 function addStyle() {
-	log("Init popup Style");
+	console.log("Init popup Style");
 	GM_addStyle(".popBox-holder { display:none; position: fixed; left: 0px; top: 0px; width:100%; height:100%; text-align:center; z-index: 900; background-color:#000; filter:alpha(opacity=40); opacity:0.5; }");
 	GM_addStyle(".popBox-container { display:none; overflow: auto; background-color: #fff; border:4px solid #000; padding:10px; text-align:left; z-index: 9999; -webkit-border-radius: .5em;  -moz-border-radius: .5em; border-radius: .5em; -webkit-box-shadow: 0 0px 25px rgba(0,0,0,.9); -moz-box-shadow: 0 0px 25px rgba(0,0,0,.9); box-shadow: 0 1px 2px rgba(0,0,0,.2); border: 5px solid rgb(000, 0, 0); border: 5px solid rgba(000, 0, 0, .9); position: fixed;}");
 	GM_addStyle(".popBox-container .done-button{ margin-top:10px;}");
@@ -218,7 +221,7 @@ function addStyle() {
                     } else { // mozilla
                         keycode = e.which;
                     }
-					log("keydown on popContainerChildren:"+keycode);
+					console.log("keydown on popContainerChildren:"+keycode);
                     if (keycode == 27) { // escape
 						GM_addStyle("#top_nav {z-index: 1;}");
                         $(this).parent().hide();
@@ -226,7 +229,7 @@ function addStyle() {
                         change = false;
                     }
                     if (keycode == 13) { // enter
-						log("enter pressed:");						
+						console.log("enter pressed:");						
 						$('#'+doneButtonName).trigger('click');
 						
                     }                    
